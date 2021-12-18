@@ -60,4 +60,12 @@ class Txt_class:
 
 test = Txt_class(name=name1,email=email1,extension=extension1,color=color1)
 
+# можно вызывать по объекту
+print(test.name)
+# print(test.email)
+# print(test.extension)
+# print(test.color)
+# лучше вызывать так
+
+# или вызвать все сразу
 print(test)
