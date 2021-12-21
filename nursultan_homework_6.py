@@ -7,6 +7,6 @@ class Sum_num:
         for i in numbers:
             for a in numbers:
                 if i + a == desired_sum:
-                    print(numbers.index(i),numbers.index(a))
+                    print([numbers.index(i),numbers.index(a)])
 test = Sum_num()
 test.summ(test.numbers,test.desired_sum)
